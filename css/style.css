@@ -1,0 +1,36 @@
+/* protect section styling */
+#Protect
+{
+    background-color: rgb(247,249,254);
+}
+#Protect .info h5 
+{
+    color: #2a81ea;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    margin-bottom: 7px;
+}
+#Protect .info h2
+{
+    color: #50658e;
+    font-size: 42px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+#Protect .info p
+{
+    color: #3d4b69;
+    line-height: 1.5em;
+}
+#Protect .item h3
+{
+    color: #3d4b69;
+    margin-bottom: 10px;
+    font-size: 16px
+}
+#Protect .item p
+{
+    color: #3d4b69;
+    line-height: 1.5em;
+}
