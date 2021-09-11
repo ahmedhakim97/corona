@@ -1,3 +1,72 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* smoth button */
+#btnScroll
+{
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    z-index: 11111;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(43,86,245);
+    border: 1px solid rgb(43,86,245);
+    display: none;
+}
+/* header section  */
+#header
+{
+    background-image: url(../images/shape-a.png);
+    background-size: 100% 100%;
+    background-color: rgb(247,249,254);
+}
+.aboutCovid a
+{
+    text-decoration: none;
+}
+.headerdesc p
+{
+    color: #3d4b69;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+.headerTitle h1 
+{
+    font-size: 85px;
+    letter-spacing: -5px;
+    color: #50658e;
+}
+.covideRed h3
+{
+    font-size: 28px;
+    color: #FF5363;
+    letter-spacing: -2px;
+    margin-top: 14px;
+}
+.covideRed h2
+{
+    font-size: 40px;
+    color: #50658e;
+}
+.groupStatistic .headingParagraph
+{
+    letter-spacing: 0.05em;
+    color: #7d92bb;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.groupStatistic  .headingDesc
+{
+    letter-spacing: 0.04em;
+    color: #465675;
+    font-size: 24px;
+}
+
 /* protect section styling */
 #Protect
 {
@@ -14,7 +83,6 @@
 {
     color: #50658e;
     font-size: 42px;
-    font-family: 'Oswald', sans-serif;
     font-weight: 900;
     margin-bottom: 25px;
 }
@@ -33,4 +101,47 @@
 {
     color: #3d4b69;
     line-height: 1.5em;
+}
+/* ** wash hand section*** */
+#wash 
+{
+    background-color: rgb(247,249,254);
+}
+#wash a 
+{
+    text-decoration: none;
+    color: #2a81ea;
+}
+#wash h2
+{
+    color: #465675;
+    font-size: 30px;
+}
+#wash .steps_desc h2 
+{
+    color: #465675;
+    font-size: 30px;
+}
+/* treatment from covid section  */
+#treatment
+{
+    background-image: url(../images/shape-a.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2766bb;
+    background-size: cover;
+}
+.selfcare
+{
+  background-color: rgb(27,71,161);
+}
+#treatment .desc-left h5
+{
+    color: #73e3ff;
+    font-size: 18px;
+}
+#treatment .desc-left h3
+{
+    font-size: 30px;
+    line-height: 1.74;
 }
